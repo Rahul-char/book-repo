@@ -36,4 +36,14 @@ public class bookController {
     public ResponseEntity<List<bookModel>> getbookModelbyAuthorName(@PathVariable("author") String author){
         return new ResponseEntity<>(book.getbooksbyauthor(author), HttpStatus.OK);
     }
+
+//    @GetMapping("/getAllUniversebooks/{bookUniverse}")
+//    public ResponseEntity<List<bookModel>> getAllUniverseBooks(@PathVariable("bookUniverse") String bookUniverse){
+//        return new ResponseEntity<>(book.getAllUniverseBooks(bookUniverse), HttpStatus.OK);
+//    }
+//
+//    @GetMapping("/getbooksByauthor/{author}")
+//    public ResponseEntity<List<bookModel>> getbookModelbyAuthorName(@PathVariable("author") String author){
+//        return new ResponseEntity<>(book.getbooksbyauthor(author), HttpStatus.OK);
+//    }
 }
