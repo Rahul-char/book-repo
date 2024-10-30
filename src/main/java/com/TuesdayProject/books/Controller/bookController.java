@@ -42,8 +42,4 @@ public class bookController {
 //        return new ResponseEntity<>(book.getAllUniverseBooks(bookUniverse), HttpStatus.OK);
 //    }
 //
-//    @GetMapping("/getbooksByauthor/{author}")
-//    public ResponseEntity<List<bookModel>> getbookModelbyAuthorName(@PathVariable("author") String author){
-//        return new ResponseEntity<>(book.getbooksbyauthor(author), HttpStatus.OK);
-//    }
 }
